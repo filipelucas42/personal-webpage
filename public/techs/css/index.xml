@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Filipe Lucas</title>
+    <link>http://www.filipelucas.com/techs/css/</link>
+    <description>Recent content in CSS on Filipe Lucas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Apr 2017 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.filipelucas.com/techs/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mercedez-Benz.io</title>
+      <link>http://www.filipelucas.com/portfolio/mercedez/</link>
+      <pubDate>Sun, 02 Apr 2017 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/mercedez/</guid>
+      <description>Front-end project done for the Mercedez-Benz.io challenge.</description>
+    </item>
+    
+  </channel>
+</rss>

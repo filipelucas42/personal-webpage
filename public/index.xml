@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filipe Lucas</title>
+    <link>http://www.filipelucas.com/</link>
+    <description>Recent content on Filipe Lucas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2019 09:37:55 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.filipelucas.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started</title>
+      <link>http://www.filipelucas.com/post/getting-started/</link>
+      <pubDate>Fri, 03 May 2019 09:37:55 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/post/getting-started/</guid>
+      <description>&lt;p&gt;Here are some details to help you getting started with this theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Portfolio Definition</title>
+      <link>http://www.filipelucas.com/post/portfolio-definition/</link>
+      <pubDate>Thu, 02 May 2019 19:49:05 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/post/portfolio-definition/</guid>
+      <description>&lt;p&gt;Here are some details about the portfolio settings.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;http://www.filipelucas.com/post/images/portfolio-example.png&#34;
+         alt=&#34;Example of Portfolio page&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Example of Portfolio page&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://www.filipelucas.com/portfolio/blog/</link>
+      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/blog/</guid>
+      <description>This is a simple blog built with Go, Postgres, and basic CSS and HTML. It has an authentication system to delete and create posts written in markdown.
+I write there simple tutorials and basic knowledge about the technologies that I use.</description>
+    </item>
+    
+    <item>
+      <title>Archetypes management</title>
+      <link>http://www.filipelucas.com/post/archetypes/</link>
+      <pubDate>Thu, 02 May 2019 19:25:30 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/post/archetypes/</guid>
+      <description>&lt;p&gt;The archetypes are defined in the &lt;code&gt;archetypes&lt;/code&gt; folder, for both post and portfolio.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>http://www.filipelucas.com/post/shortcodes/</link>
+      <pubDate>Mon, 29 Apr 2019 16:18:12 +0100</pubDate>
+      
+      <guid>http://www.filipelucas.com/post/shortcodes/</guid>
+      <description>&lt;p&gt;Introduction of the shortcodes defined in the personal-web theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Config File</title>
+      <link>http://www.filipelucas.com/post/config-file/</link>
+      <pubDate>Sat, 20 Apr 2019 16:18:12 +0100</pubDate>
+      
+      <guid>http://www.filipelucas.com/post/config-file/</guid>
+      <description>&lt;p&gt;Here is the basic config file used for personal-web.&lt;/p&gt;
+&lt;p&gt;You can use it as a base for your website.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Graph image</title>
+      <link>http://www.filipelucas.com/post/define-specific-og-image/</link>
+      <pubDate>Sat, 20 Apr 2019 11:14:59 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/post/define-specific-og-image/</guid>
+      <description>Within any page, you can add in the FrontMatter a images array that will be used to define a specific Open Graph image.
+For example, see content/_index.md page:</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>http://www.filipelucas.com/portfolio/pics/</link>
+      <pubDate>Sat, 02 Jun 2018 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/pics/</guid>
+      <description>Photo gallery done with PHP and Bulma, it has authentication system to create albums and upload photos.</description>
+    </item>
+    
+    <item>
+      <title>Mercedez-Benz.io</title>
+      <link>http://www.filipelucas.com/portfolio/mercedez/</link>
+      <pubDate>Sun, 02 Apr 2017 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/mercedez/</guid>
+      <description>Front-end project done for the Mercedez-Benz.io challenge.</description>
+    </item>
+    
+  </channel>
+</rss>

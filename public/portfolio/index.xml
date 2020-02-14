@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PORTFOLIO on Filipe Lucas</title>
+    <link>http://www.filipelucas.com/portfolio/</link>
+    <description>Recent content in PORTFOLIO on Filipe Lucas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 May 2019 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.filipelucas.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>http://www.filipelucas.com/portfolio/blog/</link>
+      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/blog/</guid>
+      <description>This is a simple blog built with Go, Postgres, and basic CSS and HTML. It has an authentication system to delete and create posts written in markdown.
+I write there simple tutorials and basic knowledge about the technologies that I use.</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>http://www.filipelucas.com/portfolio/pics/</link>
+      <pubDate>Sat, 02 Jun 2018 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/pics/</guid>
+      <description>Photo gallery done with PHP and Bulma, it has authentication system to create albums and upload photos.</description>
+    </item>
+    
+    <item>
+      <title>Mercedez-Benz.io</title>
+      <link>http://www.filipelucas.com/portfolio/mercedez/</link>
+      <pubDate>Sun, 02 Apr 2017 19:47:09 +0200</pubDate>
+      
+      <guid>http://www.filipelucas.com/portfolio/mercedez/</guid>
+      <description>Front-end project done for the Mercedez-Benz.io challenge.</description>
+    </item>
+    
+  </channel>
+</rss>
