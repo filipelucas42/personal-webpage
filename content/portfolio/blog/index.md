@@ -8,6 +8,4 @@ thumbnail: blog/blog.png
 projectUrl: http://blog.filipelucas.com
 ---
 
-This is a simple blog built with Go, Postgres, and basic CSS and HTML. It has an authentication system to delete and  create posts written in markdown.
-
-I write there simple tutorials and basic knowledge about the technologies that I use.
+This is a simple blog built with Go, Postgres, and basic CSS and HTML. I write there simple tutorials and basic knowledge about the technologies that I use.

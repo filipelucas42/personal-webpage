@@ -8,4 +8,4 @@ thumbnail: pics/pics.png
 projectUrl: http://pics.filipelucas.com
 ---
 
-Photo gallery done with PHP and Bulma, it has authentication system to create albums and upload photos.
+Photo gallery done with PHP and Bulma framework.
