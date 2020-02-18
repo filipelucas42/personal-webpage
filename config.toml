@@ -11,7 +11,8 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Hi, I'm Filipe :wave:"
-  sub = "I'm a Electrical and Computer Engineer with focus on web development techologies"
+  #sub = "I'm a Electrical and Computer Engineer with focus on web development techologies"
+  sub = "I'm in last year of Electrical and Computer Engineer with focus on web development techologies"
 
 [taxonomies]
   design = "designs"

@@ -41,8 +41,7 @@
       <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
       
       <guid>http://www.filipelucas.com/portfolio/blog/</guid>
-      <description>This is a simple blog built with Go, Postgres, and basic CSS and HTML. It has an authentication system to delete and create posts written in markdown.
-I write there simple tutorials and basic knowledge about the technologies that I use.</description>
+      <description>This is a simple blog built with Go, Postgres, and basic CSS and HTML. I write there simple tutorials and basic knowledge about the technologies that I use.</description>
     </item>
     
     <item>
@@ -52,15 +51,6 @@ I write there simple tutorials and basic knowledge about the technologies that I
       
       <guid>http://www.filipelucas.com/post/archetypes/</guid>
       <description>&lt;p&gt;The archetypes are defined in the &lt;code&gt;archetypes&lt;/code&gt; folder, for both post and portfolio.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>http://www.filipelucas.com/post/shortcodes/</link>
-      <pubDate>Mon, 29 Apr 2019 16:18:12 +0100</pubDate>
-      
-      <guid>http://www.filipelucas.com/post/shortcodes/</guid>
-      <description>&lt;p&gt;Introduction of the shortcodes defined in the personal-web theme.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,7 +79,7 @@ For example, see content/_index.md page:</description>
       <pubDate>Sat, 02 Jun 2018 19:47:09 +0200</pubDate>
       
       <guid>http://www.filipelucas.com/portfolio/pics/</guid>
-      <description>Photo gallery done with PHP and Bulma, it has authentication system to create albums and upload photos.</description>
+      <description>Photo gallery done with PHP and Bulma framework.</description>
     </item>
     
     <item>

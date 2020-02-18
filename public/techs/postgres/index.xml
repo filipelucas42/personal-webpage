@@ -17,8 +17,7 @@
       <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
       
       <guid>http://www.filipelucas.com/portfolio/blog/</guid>
-      <description>This is a simple blog built with Go, Postgres, and basic CSS and HTML. It has an authentication system to delete and create posts written in markdown.
-I write there simple tutorials and basic knowledge about the technologies that I use.</description>
+      <description>This is a simple blog built with Go, Postgres, and basic CSS and HTML. I write there simple tutorials and basic knowledge about the technologies that I use.</description>
     </item>
     
   </channel>
