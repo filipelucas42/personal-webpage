@@ -3,9 +3,9 @@ title: Blog
 date: "2019-05-02T19:47:09+02:00"
 jobDate: 2019
 work: []
-techs: [Go, Postgres]
+techs: [Hugo, CSS, JavaScript]
 thumbnail: blog/blog.png
-projectUrl: http://blog.filipelucas.com
+projectUrl: https://blog.filipelucas.com
 ---
 
-This is a simple blog built with Go, Postgres, and basic CSS and HTML. I write there simple tutorials and basic knowledge about the technologies that I use.
+Blog built with a custom theme where I post some articles about my techologies of choice.

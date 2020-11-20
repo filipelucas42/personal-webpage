@@ -2,66 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techs on Filipe Lucas</title>
-    <link>http://www.filipelucas.com/techs/</link>
+    <link>/techs/</link>
     <description>Recent content in Techs on Filipe Lucas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2019 19:47:09 +0200</lastBuildDate>
-    
-	<atom:link href="http://www.filipelucas.com/techs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Go</title>
-      <link>http://www.filipelucas.com/techs/go/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
-      
-      <guid>http://www.filipelucas.com/techs/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postgres</title>
-      <link>http://www.filipelucas.com/techs/postgres/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
-      
-      <guid>http://www.filipelucas.com/techs/postgres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bulma</title>
-      <link>http://www.filipelucas.com/techs/bulma/</link>
-      <pubDate>Sat, 02 Jun 2018 19:47:09 +0200</pubDate>
-      
-      <guid>http://www.filipelucas.com/techs/bulma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PHP</title>
-      <link>http://www.filipelucas.com/techs/php/</link>
-      <pubDate>Sat, 02 Jun 2018 19:47:09 +0200</pubDate>
-      
-      <guid>http://www.filipelucas.com/techs/php/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 10 Nov 2020 19:47:09 +0200</lastBuildDate><atom:link href="/techs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS</title>
-      <link>http://www.filipelucas.com/techs/css/</link>
-      <pubDate>Sun, 02 Apr 2017 19:47:09 +0200</pubDate>
+      <link>/techs/css/</link>
+      <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
       
-      <guid>http://www.filipelucas.com/techs/css/</guid>
+      <guid>/techs/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>http://www.filipelucas.com/techs/html/</link>
-      <pubDate>Sun, 02 Apr 2017 19:47:09 +0200</pubDate>
+      <title>Hugo</title>
+      <link>/techs/hugo/</link>
+      <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
       
-      <guid>http://www.filipelucas.com/techs/html/</guid>
+      <guid>/techs/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>/techs/javascript/</link>
+      <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
+      
+      <guid>/techs/javascript/</guid>
       <description></description>
     </item>
     
