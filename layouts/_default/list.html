@@ -1,6 +1,5 @@
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.75.1" />
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,15 +15,7 @@
      <title>Filipe Lucas</title>
 </head>
 <body>
-     <head>
-    <nav>
-        <a href="/">Home</a>
-        /
-        <a href="/blog">Blog</a>
-        /
-         <a href="/about">About</a>
-    </nav>
-</head>
+     {{ partial "header" . }}
      <div style="margin:auto;display:flex;flex-direction: column;align-items: center;">
           <img src="/filipe.jpg" style="border-radius: 50%;max-width: 200px;">
           <div style="margin:auto;display:flex;flex-direction: column;align-items: center;">
@@ -37,6 +28,6 @@
                <img src="/gallery.png" style="max-width: 300px;">
           </div>
      </div>
-     
+     {{ partial "footer" . }}
 </body>
 </html>

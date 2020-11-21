@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/</link>
-    <description>Recent content on </description>
+    <title>Articles on Hugo | Giraffe Academy</title>
+    <link>/article/</link>
+    <description>Recent content in Articles on Hugo | Giraffe Academy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 23:39:02 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 23:39:02 +0100</lastBuildDate><atom:link href="/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[TypeScript] - Quick start guide</title>
-      <link>/blog/typescript-quick-start-guide/</link>
+      <link>/article/typescript-quick-start-guide/</link>
       <pubDate>Mon, 05 Oct 2020 23:39:02 +0100</pubDate>
       
-      <guid>/blog/typescript-quick-start-guide/</guid>
+      <guid>/article/typescript-quick-start-guide/</guid>
       <description>[TypeScript] - Quick start guide TypeScript is a programming language created by Microsoft that transpiles to JavaScript, it is a strongly-typed superset of JavaScript and is widely adopted by providing multiple advantages like check for some errors at compile time that otherwise would accour in runtime.
 This article will show the basics steps to get started with TypeScript:
  Install TypeScript Compile files Create a tsconfig.json  Install TypeScript One way to install TypeScript is trought npm, npm install -g typescript.</description>
@@ -20,10 +20,10 @@ This article will show the basics steps to get started with TypeScript:
     
     <item>
       <title>[Docker-compose] Local php environment with nginx, mysql and phpMyAdmin</title>
-      <link>/blog/docker-compose-php-nginx-mysql-phpmyadmin/</link>
+      <link>/article/docker-compose-php-nginx-mysql-phpmyadmin/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/docker-compose-php-nginx-mysql-phpmyadmin/</guid>
+      <guid>/article/docker-compose-php-nginx-mysql-phpmyadmin/</guid>
       <description>Docker-compose: Local PHP environment with nginx, mysql and phpMyAdmin This tutorial is going to guide you throught the process of mounting, using docker-compose, a local php development environment with nginx, mysql and phpMyAdmin step by step.
 The tutorial will have the following steps:
  Setup nginx Setup ngninx with PHP Adding mysql and phpMyAdmin  Start by creating the file docker-compose.yaml where it is going to have all docker configurations.</description>
@@ -31,40 +31,40 @@ The tutorial will have the following steps:
     
     <item>
       <title>[Linux] Find and replace words in all files with find and sed commands</title>
-      <link>/blog/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands/</link>
+      <link>/article/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands/</link>
       <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands/</guid>
+      <guid>/article/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands/</guid>
       <description>Find and replace words in all files with find and sed commands Although is essential using an IDE for programming, I believe that we should not be completely attach to it. For simple operations, UNIX tools can be used to do a lot, programmers should see linux environments as an IDE by itself and use it more to manage projects.
 In this article I am going to explain how to find and replace all word occurrences in all files inside a project folder structure using find and sed commands.</description>
     </item>
     
     <item>
       <title>Docker Tutorial - Setup PHP and Nginx</title>
-      <link>/blog/docker-tutorial-setup-php-and-nginx/</link>
+      <link>/article/docker-tutorial-setup-php-and-nginx/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/docker-tutorial-setup-php-and-nginx/</guid>
+      <guid>/article/docker-tutorial-setup-php-and-nginx/</guid>
       <description>Docker Tutorial - Setup PHP and Nginx In this tutorial I will present the the basic docker commands and guide you trough a setup of PHP and Nginx as a simple exercise. Note that most of the times you will encounter this setup using docker-compose, however we will not use that as a way to practice the basics of docker cli.
 Note that by default you need to use sudo to run a docker command.</description>
     </item>
     
     <item>
       <title>Setting Up a MongoDB database</title>
-      <link>/blog/setting-up-a-mongodb-database/</link>
+      <link>/article/setting-up-a-mongodb-database/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/setting-up-a-mongodb-database/</guid>
+      <guid>/article/setting-up-a-mongodb-database/</guid>
       <description>Setting up a MongoDB database In this article I will explain how to set up a MongoDB database. This article will be split in two main steps:
  Install MongoDB Run MongoDB and set up authentication Make a simple NodeJS connection  Install MongoDB Most of the repositories have MongoDB however I do not recommend install it this way because usually the repositories do not have the most recent stable version.</description>
     </item>
     
     <item>
       <title>HTTPS with Let&#39;s Encrypt and Certbot</title>
-      <link>/blog/https-with-lets-encrypt-and-certbot/</link>
+      <link>/article/https-with-lets-encrypt-and-certbot/</link>
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/https-with-lets-encrypt-and-certbot/</guid>
+      <guid>/article/https-with-lets-encrypt-and-certbot/</guid>
       <description>HTTPS with Let&amp;rsquo;s Encrypt and Certbot HTTPS allows secure connections between browsers and web servers and if you transit sensitive information (like passwords for login) between your website and it&amp;rsquo;s users having HTTPS is a must.
 Nowdays due to Let&amp;rsquo;s Encrypt it&amp;rsquo;s possible to obtain free certificates and enable HTTPS for your websites with no costs.
 I will explain in two parts how to enable HTTPS for your websites:
@@ -73,22 +73,33 @@ I will explain in two parts how to enable HTTPS for your websites:
     
     <item>
       <title>[Linux] Tar Command</title>
-      <link>/blog/linux-tar-command/</link>
+      <link>/article/linux-tar-command/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/linux-tar-command/</guid>
+      <guid>/article/linux-tar-command/</guid>
       <description>Tar Command If you use linux you mostly likely already needed to extract compressed files from tar.gz or tar and if you are like me you probably checked the command to extract the files every single time you needed it.
 I checked the command to extract the files until I actually learnt what each flag from tar -xzf file.tar.gz command means. The flags are very straightforward in a way it is very easy to learn their meaning so you never need to check the command again each time you want extract from tar files.</description>
     </item>
     
     <item>
       <title>NGINX HTTP Configuration</title>
-      <link>/blog/nginx-http-configuration/</link>
+      <link>/article/nginx-http-configuration/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/nginx-http-configuration/</guid>
+      <guid>/article/nginx-http-configuration/</guid>
       <description>NGINX HTTP Configuration In this post I will explain and give examples how to configure NGINX in three cases:
  Serve simple files like html, images, etc&amp;hellip; Redirect requests Serve PHP file  A NGINX config file has multiple configurations although I will only show the relevant parts for the scope of this post. In the end I will show my NGINX config file with all the options that I use.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Promises</title>
+      <link>/article/javascript-promises/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/article/javascript-promises/</guid>
+      <description>Javascript Promises Javascript is an asynchronous language, this means that contrary to most of the languages the instructions do not run sequentially in some cases.
+The code above shows an example of asynchronous Javascript execution:
+let test = 0; setTimeout(()=&amp;gt;{ test = 10; }, 10); console.log(test); // Output: 0 Because of the asynchronous behaviour the output is 0 instead of 10, in a synchronous execution it was expected to the setTimeout function wait for 10 milliseconds, change the value test to 10 and then print it on the console.</description>
     </item>
     
   </channel>

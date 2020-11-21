@@ -3,113 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://filipelucas.com/techs/css/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/</loc>
+    <lastmod>2020-10-05T23:39:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/typescript-quick-start-guide/</loc>
+    <lastmod>2020-10-05T23:39:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/portfolio/gallery/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/</loc>
+    <lastmod>2020-10-05T23:39:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/techs/hugo/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/docker-compose-php-nginx-mysql-phpmyadmin/</loc>
+    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/techs/javascript/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/portfolio/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/docker-tutorial-setup-php-and-nginx/</loc>
+    <lastmod>2020-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/techs/</loc>
-    <lastmod>2020-11-10T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/setting-up-a-mongodb-database/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/post/getting-started/</loc>
-    <lastmod>2019-05-03T09:37:55+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/https-with-lets-encrypt-and-certbot/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/post/</loc>
-    <lastmod>2019-05-03T09:37:55+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/linux-tar-command/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/post/portfolio-definition/</loc>
-    <lastmod>2019-05-02T19:49:05+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/blog/nginx-http-configuration/</loc>
+    <lastmod>2020-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/portfolio/blog/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/about/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/post/archetypes/</loc>
-    <lastmod>2019-05-02T19:25:30+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://filipelucas.com/post/config-file/</loc>
-    <lastmod>2019-04-20T16:18:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://filipelucas.com/post/define-specific-og-image/</loc>
-    <lastmod>2019-04-20T11:14:59+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://filipelucas.com/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://filipelucas.com/designs/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

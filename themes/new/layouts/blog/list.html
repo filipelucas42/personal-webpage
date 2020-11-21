@@ -1,0 +1,25 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="/new.css">
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161652863-2"></script>
+     <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-161652863-2');
+     </script>
+     <title>Blog - Filipe Lucas</title>
+</head>
+<body>
+     {{ partial "header" . }}
+     <h2 style="margin-bottom:15px;">Articles:</h2>
+     {{ range .Site.RegularPages }}
+        <div style="margin-bottom:10px;">[{{ .Date.Format "02-01-2006"}}] <a href="{{.Permalink}}">{{.Title}}</a><br></div>
+     {{ end }}
+     {{ partial "footer" . }}
+</body>
+</html>

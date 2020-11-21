@@ -1,0 +1,185 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="/new.css">
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161652863-2"></script>
+     <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-161652863-2');
+     </script>
+	 <title>NGINX HTTP Configuration</title>
+</head>
+<body>
+     <head>
+    <nav>
+         <a href="/">Articles</a>
+         /
+         <a href="/about">About</a>
+    </nav>
+</head>
+		 <h1 id="nginx-http-configuration">NGINX HTTP Configuration</h1>
+<p>In this post I will explain and give examples how to configure NGINX in three cases:</p>
+<ul>
+<li>Serve simple files like html, images, etc&hellip;</li>
+<li>Redirect requests</li>
+<li>Serve PHP file</li>
+</ul>
+<p>A NGINX config file has multiple configurations although I will only show the relevant parts for the scope of this post. In the end I will show my NGINX config file with all the options that I use.</p>
+<h2 id="nginx-basic-commands">NGINX basic commands</h2>
+<p>In linux system the NGINX config file is located at <em>/etc/nginx/nginx.conf</em></p>
+<p>After change the config file you should run this command to check if config file has any error:</p>
+<pre><code>sudo nginx -t
+</code></pre><p>After change the config file you should reload the NGINX:</p>
+<pre><code>sudo systemctl reload nginx
+</code></pre><h2 id="serve-simple-files">Serve simple files</h2>
+<pre><code>http {
+    server {
+        listen 80;
+        listen [::]:80;
+
+        server_name example1.com;
+
+        #root points to the folder that has the files
+        root /var/www/html/public;
+
+        location / {
+            #configuration to get the index.html as default
+            index index.html
+        }
+    }
+}
+</code></pre><h2 id="redirect-requests">Redirect requests</h2>
+<pre><code>http {
+    server {
+        listen 80;
+        listen [::]:80;
+
+        server_name example2.com;
+
+        #root points to the folder that has the files
+        root /var/www/html/public;
+
+        location / {
+            #substitute &lt;url&gt; for the url you want to redirect the request
+            proxy_pass &lt;url&gt;
+        }
+    }
+}
+</code></pre><h2 id="serve-php-files">Serve PHP files</h2>
+<pre><code>http {
+    server {
+        listen 80;
+        listen [::]:80;
+
+        server_name example3.com;
+
+        #root points to the folder that has the PHP files
+        root /var/www/html/phpfiles;
+
+        location / {
+            index index.php;
+        }
+
+        location ~* \.php$ {
+            fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+            include fastcgi_params;
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            fastcgi_param SCRIPT_NAME $fastcgi_script_name;
+        }
+    }
+}
+</code></pre><h2 id="example-of-nginx-config-file">Example of NGINX config file</h2>
+<p>This is my NGINX config file</p>
+<pre><code>http {
+    ##
+    # Basic Settings
+    ##
+ 
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+    keepalive_timeout 65;
+    types_hash_max_size 2048;
+    # server_tokens off;
+ 
+    server_names_hash_bucket_size 64;
+    # server_name_in_redirect off;
+ 
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+ 
+    ##
+    # SSL Settings
+    ##
+ 
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+    ssl_prefer_server_ciphers on;
+ 
+    ##
+    # Logging Settings
+    ##
+ 
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
+    gzip on;
+    include /etc/nginx/conf.d/*.conf;
+    server {
+         listen 80;
+         listen [::]:80;
+         server_name mercedez.filipelucas.com;
+         
+         root /var/www/html/mercedez;
+         
+         location / {
+             index index.html;
+         }
+     }
+
+     server {
+         listen 80;
+         listen [::]:80;
+         server_name pics.filipelucas.com;
+ 
+         root /var/www/html/portofolio;
+ 
+         location / {
+             index index.php;
+         }
+         location ~* \.php$ {
+             fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+             include fastcgi_params;
+             fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+             fastcgi_param SCRIPT_NAME $fastcgi_script_name;
+         }
+ 
+     }
+ 
+     server {
+         listen 80;
+         listen [::]:80;
+         server_name filipelucas.com www.filipelucas.com;
+         root /var/www/html/personal;
+ 
+         location / {
+             index index.html;
+         }
+     }
+ 
+     server {
+         listen 80;
+         listen [::]:80;
+         server_name blog.filipelucas.com www.blog.filipelucas.com;
+         location / {
+             proxy_pass http://127.0.0.1:8081;
+         }
+     }
+}
+</code></pre>
+     
+</body>
+</html>
