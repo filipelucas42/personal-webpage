@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Filipe Lucas</title>
-    <link>/techs/css/</link>
+    <link>https://filipelucas.com/techs/css/</link>
     <description>Recent content in CSS on Filipe Lucas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2020 19:47:09 +0200</lastBuildDate><atom:link href="/techs/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 19:47:09 +0200</lastBuildDate><atom:link href="https://filipelucas.com/techs/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gallery</title>
-      <link>/portfolio/gallery/</link>
+      <link>https://filipelucas.com/portfolio/gallery/</link>
       <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
       
-      <guid>/portfolio/gallery/</guid>
+      <guid>https://filipelucas.com/portfolio/gallery/</guid>
       <description>Simple gallery just for showcase built with a custom Hugo theme with purpose to learn more about webstatic builders</description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>/portfolio/blog/</link>
+      <link>https://filipelucas.com/portfolio/blog/</link>
       <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
       
-      <guid>/portfolio/blog/</guid>
+      <guid>https://filipelucas.com/portfolio/blog/</guid>
       <description>Blog built with a custom theme where I post some articles about my techologies of choice.</description>
     </item>
     

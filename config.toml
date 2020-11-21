@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://filipelucas.com"
 languageCode = "en-us"
 title = "Filipe Lucas"
 theme = "personal-web"
