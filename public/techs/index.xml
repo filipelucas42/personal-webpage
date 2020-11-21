@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techs on Filipe Lucas</title>
-    <link>https://filipelucas.com/techs/</link>
+    <link>/techs/</link>
     <description>Recent content in Techs on Filipe Lucas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2020 19:47:09 +0200</lastBuildDate><atom:link href="https://filipelucas.com/techs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 19:47:09 +0200</lastBuildDate><atom:link href="/techs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS</title>
-      <link>https://filipelucas.com/techs/css/</link>
+      <link>/techs/css/</link>
       <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
       
-      <guid>https://filipelucas.com/techs/css/</guid>
+      <guid>/techs/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://filipelucas.com/techs/hugo/</link>
+      <link>/techs/hugo/</link>
       <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
       
-      <guid>https://filipelucas.com/techs/hugo/</guid>
+      <guid>/techs/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>https://filipelucas.com/techs/javascript/</link>
+      <link>/techs/javascript/</link>
       <pubDate>Tue, 10 Nov 2020 19:47:09 +0200</pubDate>
       
-      <guid>https://filipelucas.com/techs/javascript/</guid>
+      <guid>/techs/javascript/</guid>
       <description></description>
     </item>
     
