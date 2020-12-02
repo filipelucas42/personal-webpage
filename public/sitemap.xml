@@ -3,66 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://www.filipelucas.com/blog.html</loc>
+    <lastmod>2020-12-01T11:32:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.filipelucas.com/blog/deploy-laravel-application-on-aws-with-beanstalk.html</loc>
+    <lastmod>2020-12-01T11:32:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.filipelucas.com/</loc>
+    <lastmod>2020-12-01T11:32:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.filipelucas.com/blog/typescript-quick-start-guide.html</loc>
     <lastmod>2020-10-05T23:39:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/typescript-quick-start-guide/</loc>
-    <lastmod>2020-10-05T23:39:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-10-05T23:39:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/docker-compose-php-nginx-mysql-phpmyadmin/</loc>
+    <loc>https://www.filipelucas.com/blog/docker-compose-php-nginx-mysql-phpmyadmin.html</loc>
     <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands/</loc>
+    <loc>https://www.filipelucas.com/blog/linux-find-and-replace-words-in-all-files-with-find-and-sed-commands.html</loc>
     <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/docker-tutorial-setup-php-and-nginx/</loc>
+    <loc>https://www.filipelucas.com/blog/docker-tutorial-setup-php-and-nginx.html</loc>
     <lastmod>2020-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/setting-up-a-mongodb-database/</loc>
+    <loc>https://www.filipelucas.com/blog/setting-up-a-mongodb-database.html</loc>
     <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/https-with-lets-encrypt-and-certbot/</loc>
+    <loc>https://www.filipelucas.com/blog/https-with-lets-encrypt-and-certbot.html</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/linux-tar-command/</loc>
+    <loc>https://www.filipelucas.com/blog/linux-tar-command.html</loc>
     <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/nginx-http-configuration/</loc>
+    <loc>https://www.filipelucas.com/blog/nginx-http-configuration.html</loc>
     <lastmod>2020-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://www.filipelucas.com/about.html</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://www.filipelucas.com/categories.html</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://www.filipelucas.com/tags.html</loc>
   </url>
   
 </urlset>

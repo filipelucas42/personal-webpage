@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161652863-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-161652863-1');
+    </script>
+
+    <title>
+    {{ block "title" . }}
+      {{.Title}}
+    {{ end }}
+    </title>
+    {{ $sass := resources.Get "main.scss" }}
+    {{ $css := $sass | resources.ToCSS | resources.PostCSS (dict "config" "postcss.config.js" "noMap" true)}}
+    <link href="{{$css.Permalink}}" rel="stylesheet">
+  </head>
+  <body>
+      {{partial "sidebar" .}}
+    <div id="main-container">
+      {{partial "header" .}}
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+    {{block "footer" .}}
+    {{end}}
+  </body>
+</html>

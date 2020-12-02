@@ -1,9 +1,19 @@
-<head>
-    <nav>
-        <a href="/">Home</a>
-        /
-        <a href="/blog">Blog</a>
-        /
-         <a href="/about">About</a>
-    </nav>
-</head>
+<nav id="navbar">
+    <a href='{{ref . "/"}}'
+    {{if eq .Section ""}}
+        class="active"
+    {{end}}
+    >Home</a>
+
+    <a href='{{ref . "blog"}}'
+    {{if eq .Section "blog"}}
+        class="active"
+    {{end}}
+    >Blog</a>
+
+    <a href='{{ref . "about"}}'
+    {{if eq .Section "about"}}
+        class="active"
+    {{end}}
+    >About</a>
+</nav>

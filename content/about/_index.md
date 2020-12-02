@@ -1,11 +1,5 @@
+Web developer at OLX Group and senior student in electrical and computer field.
 
-Senior student at Electrical and Computer Engineer and web developer at OLX Group. I enjoy learn about programming and web techologies. I have done some small projects using HTML, CSS, JavaScript, Go and PHP.
-<br><br>
-I write in my blog small tutorials and explain some concepts about my technologies of choice:
-* Linux
-* Go
-* JavaScript
-* SQL Databases
-* CSS
+Enthusiastic about linux, unix tools, programming and web development. I have experience in PHP, Go, and front-end techologies, I also have experience managing linux webservers to host static websites and php applications with nginx both on permise and on AWS.
 
-Contact: filipe.jl.ines@gmail.com
+Website built with <a href="https://gohugo.io/">Hugo</a>

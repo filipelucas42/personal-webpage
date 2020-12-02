@@ -1,4 +1,6 @@
-baseURL = ""
+baseURL = "https://www.filipelucas.com"
 languageCode = "en-us"
+title = "Filipe Lucas"
+uglyurls = true
 [markup.goldmark.renderer]
 unsafe= true
