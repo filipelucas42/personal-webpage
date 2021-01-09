@@ -4,7 +4,7 @@ date: 2020-03-13
 draft: false
 ---
 
-# HTTPS with Let's Encrypt and Certbot
+## HTTPS with Let's Encrypt and Certbot
 
 HTTPS allows secure connections between browsers and web servers and if you transit sensitive information (like passwords for login) between your website and it's users having HTTPS is a must.
 
@@ -19,19 +19,19 @@ I will explain in two parts how to enable HTTPS for your websites:
 It will be used *certbot* tool to make this process easier. If you are using linux it's likely that *certbot* is in your package manager, for Ubuntu and Debian distributions you can install with *sudo apt install certbot*
 
 After installation you can get a free certificate by running the following command:
-```bash
+```
 sudo certbot certonly --standalone -d example.com
 ```
 
 Note if you have a webserver running (for example nginx) you need to disable it before running that command or you can run the following:
-```bash
+```
 sudo certbot certonly --standalone -d example.com --pre-hook "systemctl stop nginx.service" --post-hook "systemctl start nginx.service"
 ```
 
 After you run the command you should get a free certificate that it is stored in the following directory `/etc/letsencrypt/live/example.com`. In this directory there are two files you will need to install: *fullchain.pem* and *privkey.pem*. 
 
 In my case I got two certificates for each one of my two websites and so I run the following commands:
-```bash
+```
 sudo certbot certonly --standalone -d www.filipelucas.com --pre-hook "systemctl stop nginx.service" --post-hook "systemctl start nginx.service"
 sudo certbot certonly --standalone -d blog.filipelucas.com --pre-hook "systemctl stop nginx.service" --post-hook "systemctl start nginx.service"
 ```
@@ -48,7 +48,6 @@ To install the certificate you need to change the config of the nginx that are i
 
 As an example I will show my nginx config for HTTPS:
 
-* [www.filipelucas.com](https://www.filipelucas.com):
 ```
 server {
     listen 443 ssl http2;
@@ -88,7 +87,8 @@ server {
 }
 ```
 
-* (blog.filipelucas.com)(https://blog.filipelucas.com):
+<br>
+
 ```
 server {
     listen 443 ssl http2;

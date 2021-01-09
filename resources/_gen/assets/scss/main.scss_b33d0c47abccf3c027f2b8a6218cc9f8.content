@@ -198,7 +198,8 @@ body {
   margin-right: auto; }
 
 .article {
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  max-width: 60vw; }
   .article li {
     color: #316397;
     margin-left: 2rem; }
@@ -216,10 +217,13 @@ code {
   color: #213f5c;
   background-color: #f1f1f1;
   padding: 2px;
-  font-size: 105%; }
+  font-size: 105%;
+  max-width: 100%; }
 
 pre {
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  overflow-x: scroll;
+  padding: 0.6rem 1rem; }
 
 #sidebar {
   grid-column-start: 1;
@@ -256,7 +260,9 @@ pre {
   #navbar {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
-            justify-content: space-around; } }
+            justify-content: space-around; }
+  .article {
+    max-width: 100vw; } }
 
 @media (max-width: 991.98px) {
   #sidebar {

@@ -15,7 +15,7 @@ In this post I will explain briefly how to use and possibly memorize the basic u
 ## Extract files
 
 Command to extract files:
-``` bash
+```
 tar -xzf file.tar.gz
 ```
 
@@ -25,14 +25,14 @@ Meaning of the flags:
 * **z**: it means that *tar* should extract files using *gzip* compression mode. There are the -j option that refers to *bzip2* compression mode but this option is less used since it takes more time to compress and extract, although it can compress the files to a smaller size
 
 Sometimes the command appers like:
-``` bash
+```
 tar -xzfv file.tar.gz
 ```
 
 The `v` flag turns the process verbose meaning that the command will output the process of extraction.
 
 You can commonly encounter the following command too:
-```bash
+```
 tar -C /destination/path -xzf file.tar.gz
 ```
 
@@ -43,7 +43,7 @@ The `C` flag extract the files to */destination/path* instead extracting to the 
 I personally never used the tar commmand to compress files but since I am writing about it I will put here the basics to compress files.
 
 Command to compress files:
-``` bash
+```
 tar -cfzv files.tar.gz file1 file2 file3 ...
 ```
 
